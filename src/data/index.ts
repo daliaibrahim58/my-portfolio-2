@@ -199,8 +199,8 @@ export const projects: Project[] = [
       "/material-ui-1.svg",
       "/momentjs.svg",
     ],
-    links: "https://daliaibrahim58.github.io/weather-project/",
-    link: "",
+    link: "https://daliaibrahim58.github.io/weather-project/",
+    
   },
   {
     id: 9,

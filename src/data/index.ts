@@ -128,14 +128,6 @@ export const gridItems: GridItem[] = [
 export const projects: Project[] = [
   {
     id: 1,
-    title: "JavaScript War Game",
-    des: "A simple war card game built with JavaScript. Players can attack, take health points, see the winner, and restart the game to play again.",
-    img: "/wargame.png",
-    iconLists: ["/javascript-1.svg", "/html.svg", "/css.svg"],
-    link: "https://daliaibrahim58.github.io/simple-war-game/",
-  },
-  {
-    id: 2,
     title: "JavaScript OOP Quiz App",
     des: "A quiz application built with JavaScript OOP. Fetches questions from an API, allows selecting categories, submitting answers, and viewing results for each quiz attempt.",
     img: "/quizapp.png",
@@ -144,7 +136,7 @@ export const projects: Project[] = [
   },
 
   {
-    id: 3,
+    id: 2,
     title: "React Vite To-Do List",
     des: "A To-Do List application built with React and Vite. Features task creation, deletion, and management using Material-UI components, with unique IDs generated via uuid and gh-pages deployment for hosting.",
     img: "/todo.png",
@@ -156,22 +148,9 @@ export const projects: Project[] = [
     ],
     link: "https://daliaibrahim58.github.io/to_do_list/",
   },
+
   {
-    id: 4,
-    title: "Weather Application Project",
-    des: "A complete weather app project with React and Vite including setup, UI design, API integration, and localization. Features fetching weather data from a JSON file, building user interfaces with React and Tailwind, using Material-UI components, Moment.js for date/time formatting, and i18next for multi-language support.",
-    img: "/wheather.png",
-    iconLists: [
-      "/react-2.svg",
-      "/tail.svg",
-      "/javascript-1.svg",
-      "/material-ui-1.svg",
-      "/momentjs.svg",
-    ],
-    link: "https://daliaibrahim58.github.io/weather-project/",
-  },
-  {
-    id: 5,
+    id: 3,
     title: "React Redux Toolkit Tutorials",
     des: "A series covering Redux Toolkit basics, slices, async thunks, middleware, and RTK Query, using a local JSON file as a data source to simulate a database.",
     img: "/redux.png",
@@ -179,7 +158,7 @@ export const projects: Project[] = [
     link: "https://daliaibrahim58.github.io/redux-app/",
   },
   {
-    id: 6,
+    id: 4,
     title: "🔍 Wikipedia Search API Integration",
     des: "A simple Next.js utility that fetches live Wikipedia results using the MediaWiki API. Returns page images, short extracts, and links for up to 20 search results.",
     img: "/wikires.png",
@@ -187,7 +166,7 @@ export const projects: Project[] = [
     link: "https://wiki-rocket-khaki.vercel.app/",
   },
   {
-    id: 7,
+    id: 5,
     title: "Next.js 13 Blog with Remote MDX Integration",
     des: "Build and deploy a modern blog using Next.js 13 with remote MDX files as content. Learn how to set up dynamic routes, static generation, and publish a fast, SEO-friendly blog.",
     img: "/blog.png",
@@ -195,7 +174,7 @@ export const projects: Project[] = [
     link: "https://blog-posts-smoky.vercel.app/",
   },
   {
-    id: 8,
+    id: 6,
     title: "📘 User & Posts Explorer with Next.js",
     des: "A Next.js project that fetches users from an API and lets you explore their posts with a clean, modern UI. Browse users, click a name, and instantly see all their posts styled beautifully.",
     img: "/users.png",
@@ -203,7 +182,7 @@ export const projects: Project[] = [
     link: "https://get-users-brown.vercel.app/",
   },
   {
-    id: 9,
+    id: 7,
     title: "✅ Full-Stack Todo List with Server Actions",
     des: "A Todo List app built with Next.js, React hooks, and server actions. Using a local JSON file as a data source to simulate a database, allowing you to add, edit, and delete todos seamlessly. A clean and responsive UI makes task management simple and efficient.",
     img: "/todonext.png",
@@ -211,7 +190,7 @@ export const projects: Project[] = [
     link: "https://todo-list-next-sepia.vercel.app/",
   },
   {
-    id: 10,
+    id: 8,
     title: "File Upload System with UploadThing in Next.js",
     des: "A modern file upload feature built in Next.js using UploadThing. Supports both button-based uploads and drag & drop uploads with live previews. Styled with Tailwind CSS, it provides a clean UI and seamless file handling experience.",
     img: "/uploadthing.png",
@@ -221,7 +200,15 @@ export const projects: Project[] = [
 
   // ====== Not responsive projects moved to the end ======
   {
-    id: 11,
+    id: 9,
+    title: "JavaScript War Game",
+    des: "A simple war card game built with JavaScript. Players can attack, take health points, see the winner, and restart the game to play again.",
+    img: "/wargame.png",
+    iconLists: ["/javascript-1.svg", "/html.svg", "/css.svg"],
+    link: "https://daliaibrahim58.github.io/simple-war-game/",
+  },
+  {
+    id: 10,
     title: "Weather Application Project (Not Responsive)",
     des: "A complete weather app project with React and Vite including setup, UI design, API integration, and localization. Features fetching weather data from a JSON file, building user interfaces with React and Tailwind, using Material-UI components, Moment.js for date/time formatting, and i18next for multi-language support.",
     img: "/wheather.png",
@@ -235,7 +222,7 @@ export const projects: Project[] = [
     link: "https://daliaibrahim58.github.io/weather-project/",
   },
   {
-    id: 12,
+    id: 11,
     title: "JavaScript E-Commerce Cart",
     des: "A fully functional e-commerce cart built with pure JavaScript. Features adding products, updating quantities, deleting items, adding to favorites, and user login with information saved in localStorage to maintain session across page reloads.",
     img: "/ecommerce.png",
@@ -243,7 +230,7 @@ export const projects: Project[] = [
     link: "https://daliaibrahim58.github.io/E-commerce-shopping-cart/",
   },
   {
-    id: 13,
+    id: 12,
     title: "HTML & CSS Beginner Project (Not Responsive)",
     des: "One of my first projects while learning web development. Built with pure HTML and CSS to practice layouts and styling, not yet responsive.",
     img: "/firstpro.png",
@@ -251,7 +238,7 @@ export const projects: Project[] = [
     link: "https://daliaibrahim58.github.io/Template_one/",
   },
   {
-    id: 14,
+    id: 13,
     title: "HTML & CSS Beginner Project (Not Responsive)",
     des: "One of my second projects while learning web development. Built with pure HTML and CSS to practice layouts and styling, not yet responsive.",
     img: "/secondpro.png",
@@ -259,7 +246,7 @@ export const projects: Project[] = [
     link: "https://daliaibrahim58.github.io/Template_TWO/",
   },
   {
-    id: 15,
+    id: 14,
     title: "HTML & CSS Beginner Project (Not Responsive)",
     des: "One of my third projects while learning web development. Built with pure HTML and CSS to practice layouts and styling, not yet responsive.",
     img: "/thirdpro.png",

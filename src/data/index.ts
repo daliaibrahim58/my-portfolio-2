@@ -201,7 +201,7 @@ export const projects: Project[] = [
   // ====== Not responsive projects moved to the end ======
   {
     id: 9,
-    title: "JavaScript War Game",
+    title: "JavaScript War Game (Not Responsive)",
     des: "A simple war card game built with JavaScript. Players can attack, take health points, see the winner, and restart the game to play again.",
     img: "/wargame.png",
     iconLists: ["/javascript-1.svg", "/html.svg", "/css.svg"],
@@ -223,7 +223,7 @@ export const projects: Project[] = [
   },
   {
     id: 11,
-    title: "JavaScript E-Commerce Cart",
+    title: "JavaScript E-Commerce Cart (Not Responsive)",
     des: "A fully functional e-commerce cart built with pure JavaScript. Features adding products, updating quantities, deleting items, adding to favorites, and user login with information saved in localStorage to maintain session across page reloads.",
     img: "/ecommerce.png",
     iconLists: ["/javascript-1.svg", "/html.svg", "/css.svg"],

@@ -128,29 +128,14 @@ export const gridItems: GridItem[] = [
 export const projects: Project[] = [
   {
     id: 1,
-    title: "JavaScript OOP Quiz App",
-    des: "A quiz application built with JavaScript OOP. Fetches questions from an API, allows selecting categories, submitting answers, and viewing results for each quiz attempt.",
-    img: "/quizapp.png",
-    iconLists: ["/javascript-1.svg", "/html.svg", "/css.svg"],
-    link: "https://daliaibrahim58.github.io/Quiz-App/",
+    title: "Next.js Course Platform",
+    des: "A Next.js project bootstrapped with create-next-app. It is a course platform designed to help users track their learning progress, interact with content, and test their knowledge.",
+    img: "/course-platform.png",
+    iconLists: ["/next.svg", "/ts.svg", "/css.svg"],
+    link: "https://course-platform-eosin.vercel.app/",
   },
-
   {
     id: 2,
-    title: "React Vite To-Do List",
-    des: "A To-Do List application built with React and Vite. Features task creation, deletion, and management using Material-UI components, with unique IDs generated via uuid and gh-pages deployment for hosting.",
-    img: "/todo.png",
-    iconLists: [
-      "/react-2.svg",
-      "/vitejs.svg",
-      "/javascript-1.svg",
-      "/material-ui-1.svg",
-    ],
-    link: "https://daliaibrahim58.github.io/to_do_list/",
-  },
-
-  {
-    id: 3,
     title: "React Redux Toolkit Tutorials",
     des: "A series covering Redux Toolkit basics, slices, async thunks, middleware, and RTK Query, using a local JSON file as a data source to simulate a database.",
     img: "/redux.png",
@@ -158,7 +143,7 @@ export const projects: Project[] = [
     link: "https://daliaibrahim58.github.io/redux-app/",
   },
   {
-    id: 4,
+    id: 3,
     title: "🔍 Wikipedia Search API Integration",
     des: "A simple Next.js utility that fetches live Wikipedia results using the MediaWiki API. Returns page images, short extracts, and links for up to 20 search results.",
     img: "/wikires.png",
@@ -166,12 +151,20 @@ export const projects: Project[] = [
     link: "https://wiki-rocket-khaki.vercel.app/",
   },
   {
-    id: 5,
+    id: 4,
     title: "Next.js 13 Blog with Remote MDX Integration",
     des: "Build and deploy a modern blog using Next.js 13 with remote MDX files as content. Learn how to set up dynamic routes, static generation, and publish a fast, SEO-friendly blog.",
     img: "/blog.png",
     iconLists: ["/tail.svg", "/ts.svg", "/next.svg"],
     link: "https://blog-posts-smoky.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "✅ Full-Stack Todo List with Server Actions",
+    des: "A Todo List app built with Next.js, React hooks, and server actions. Uses a mock server to simulate a database. I wrote tests to ensure reliability. A clean and responsive UI makes task management simple and efficient.",
+    img: "/todonext.png",
+    iconLists: ["/tail.svg", "/ts.svg", "/next.svg"],
+    link: "https://todo-list-next-with-test.vercel.app/",
   },
   {
     id: 6,
@@ -183,14 +176,28 @@ export const projects: Project[] = [
   },
   {
     id: 7,
-    title: "✅ Full-Stack Todo List with Server Actions",
-    des: "A Todo List app built with Next.js, React hooks, and server actions. Using a local JSON file as a data source to simulate a database, allowing you to add, edit, and delete todos seamlessly. A clean and responsive UI makes task management simple and efficient.",
-    img: "/todonext.png",
-    iconLists: ["/tail.svg", "/ts.svg", "/next.svg"],
-    link: "https://todo-list-next-sepia.vercel.app/",
+    title: "JavaScript OOP Quiz App",
+    des: "A quiz application built with JavaScript OOP. Fetches questions from an API, allows selecting categories, submitting answers, and viewing results for each quiz attempt.",
+    img: "/quizapp.png",
+    iconLists: ["/javascript-1.svg", "/html.svg", "/css.svg"],
+    link: "https://daliaibrahim58.github.io/Quiz-App/",
   },
+
   {
     id: 8,
+    title: "React Vite To-Do List",
+    des: "A To-Do List application built with React and Vite. Features task creation, deletion, and management using Material-UI components, with unique IDs generated via uuid and gh-pages deployment for hosting.",
+    img: "/todo.png",
+    iconLists: [
+      "/react-2.svg",
+      "/vitejs.svg",
+      "/javascript-1.svg",
+      "/material-ui-1.svg",
+    ],
+    link: "https://daliaibrahim58.github.io/to_do_list/",
+  },
+  {
+    id: 9,
     title: "File Upload System with UploadThing in Next.js",
     des: "A modern file upload feature built in Next.js using UploadThing. Supports both button-based uploads and drag & drop uploads with live previews. Styled with Tailwind CSS, it provides a clean UI and seamless file handling experience.",
     img: "/uploadthing.png",
@@ -200,7 +207,7 @@ export const projects: Project[] = [
 
   // ====== Not responsive projects moved to the end ======
   {
-    id: 9,
+    id: 10,
     title: "JavaScript War Game (Not Responsive)",
     des: "A simple war card game built with JavaScript. Players can attack, take health points, see the winner, and restart the game to play again.",
     img: "/wargame.png",
@@ -208,7 +215,7 @@ export const projects: Project[] = [
     link: "https://daliaibrahim58.github.io/simple-war-game/",
   },
   {
-    id: 10,
+    id: 11,
     title: "Weather Application Project (Not Responsive)",
     des: "A complete weather app project with React and Vite including setup, UI design, API integration, and localization. Features fetching weather data from a JSON file, building user interfaces with React and Tailwind, using Material-UI components, Moment.js for date/time formatting, and i18next for multi-language support.",
     img: "/wheather.png",
@@ -222,7 +229,7 @@ export const projects: Project[] = [
     link: "https://daliaibrahim58.github.io/weather-project/",
   },
   {
-    id: 11,
+    id: 12,
     title: "JavaScript E-Commerce Cart (Not Responsive)",
     des: "A fully functional e-commerce cart built with pure JavaScript. Features adding products, updating quantities, deleting items, adding to favorites, and user login with information saved in localStorage to maintain session across page reloads.",
     img: "/ecommerce.png",
@@ -230,28 +237,28 @@ export const projects: Project[] = [
     link: "https://daliaibrahim58.github.io/E-commerce-shopping-cart/",
   },
   {
-    id: 12,
+    id: 13,
     title: "HTML & CSS Beginner Project (Not Responsive)",
     des: "One of my first projects while learning web development. Built with pure HTML and CSS to practice layouts and styling, not yet responsive.",
     img: "/firstpro.png",
     iconLists: ["/html.svg", "/css.svg"],
-    link: "https://daliaibrahim58.github.io/Template_one/",
-  },
-  {
-    id: 13,
-    title: "HTML & CSS Beginner Project (Not Responsive)",
-    des: "One of my second projects while learning web development. Built with pure HTML and CSS to practice layouts and styling, not yet responsive.",
-    img: "/secondpro.png",
-    iconLists: ["/html.svg", "/css.svg"],
-    link: "https://daliaibrahim58.github.io/Template_TWO/",
+    link: "https://daliaibrahim58.github.io/Template_1/",
   },
   {
     id: 14,
     title: "HTML & CSS Beginner Project (Not Responsive)",
+    des: "One of my second projects while learning web development. Built with pure HTML and CSS to practice layouts and styling, not yet responsive.",
+    img: "/secondpro.png",
+    iconLists: ["/html.svg", "/css.svg"],
+    link: "https://daliaibrahim58.github.io/Template_2/",
+  },
+  {
+    id: 15,
+    title: "HTML & CSS Beginner Project (Not Responsive)",
     des: "One of my third projects while learning web development. Built with pure HTML and CSS to practice layouts and styling, not yet responsive.",
     img: "/thirdpro.png",
     iconLists: ["/html.svg", "/css.svg"],
-    link: "https://daliaibrahim58.github.io/Template-three/",
+    link: "https://daliaibrahim58.github.io/Template-3/",
   },
 ];
 

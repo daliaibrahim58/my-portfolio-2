@@ -137,7 +137,7 @@ export const projects: Project[] = [
   {
     id: 2,
     title: "React Redux Toolkit Tutorials",
-    des: "A series covering Redux Toolkit basics, slices, async thunks, middleware, and RTK Query, using a local JSON file as a data source to simulate a database.",
+    des: "A series covering Redux Toolkit basics, slices, async thunks, middleware, and RTK Query, json placeholder api as a data source to simulate a database.",
     img: "/redux.png",
     iconLists: ["/react-2.svg", "/redux.svg", "/ts.svg", "/javascript-1.svg"],
     link: "https://daliaibrahim58.github.io/redux-app/",
